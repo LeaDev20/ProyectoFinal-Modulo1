@@ -1,8 +1,9 @@
-/* GENERAL */
+/* GENERAL: Login & Register*/
     /* Header */
 
-    .body_header {
+    .body__header--blanco {
         height: 83px;
+        border-bottom: 1px solid rgba(101, 101, 101, 0.33); 
     }
 
     #titulo {
@@ -23,11 +24,6 @@
         width: 37px;
         height: 33px;
         top: 10px;
-    }
-
-    hr {
-        margin: 0px 0px 10px 0px;
-
     }
 
     /* Body */
@@ -51,13 +47,24 @@
 
     /* Footer */
 
-    .body_footer {
+    .body__footer--blanco {
         height: 88px;
+    }
+
+    .body__footer--blanco2 {
+        height: 88px;
+        border-top: 1px solid rgba(101, 101, 101, 0.33);
+    }
+
+    #footer_p {
+        position: relative;
+        float: left;
+        top: 19px;
     }
     
     #footer_span {
         position: relative;
-        float: left;
+        float: right;
         top: 19px;
     }
 
@@ -67,3 +74,63 @@
         height: 37px;
     }
 /* /GENERAL */
+
+/* GENERAL: Home,Search,Playlist,Edit */
+
+.hola {
+    
+}
+
+.body__header--negro {
+    width: 100%;
+    background-color: black;
+    height: 83px;
+    border-bottom: 1px solid rgba(101, 101, 101, 0.33); 
+}
+
+.body__footer--negro {
+    background-color: black;
+    height: 88px;
+    border-top: 1px solid rgba(101, 101, 101, 0.33);
+}
+
+#input {
+    background: #FFFFFF;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 33px;
+}
+
+#titulo-blanco {
+    position: relative;
+    width: 183px;
+    height: 64px;
+    top: 19px;
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+#footer__p--blanco {
+    color: #FFFFFF;
+    position: relative;
+    float: left;
+    top: 19px;
+}
+
+#footer__span--blanco {
+    color: #FFFFFF;
+    position: relative;
+    float: right;
+    top: 19px;
+}
+
+.spotify__green {
+    float: right;
+    width: 111px;
+    height: 37px;
+}
+
