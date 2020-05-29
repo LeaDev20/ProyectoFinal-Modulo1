@@ -77,15 +77,25 @@
 
 /* GENERAL: Home,Search,Playlist,Edit */
 
-.hola {
-    
-}
-
 .body__header--negro {
     width: 100%;
     background-color: black;
     height: 83px;
     border-bottom: 1px solid rgba(101, 101, 101, 0.33); 
+}
+
+.header__nav--logo {
+    float: left;
+}
+
+.header__nav--a {
+    float: right;
+    position: relative;
+    margin: 25px 25px 0px 0px;
+}
+
+.body__home {
+    background-image: url(./images/Latin_Festival.jpg);
 }
 
 .body__footer--negro {
