@@ -102,6 +102,10 @@
     background-image: url(./images/Latin_Festival.jpg);
 }
 
+.body__playlist {
+    background-color: black;
+}
+
 .body__footer--negro {
     background-color: black;
     height: 88px;
@@ -162,4 +166,16 @@
     font-size: 50px;
     line-height: 61px;
     color: #FFFFFF;
-    }
+}
+
+.card {
+    background-color: black;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-img-top {
+    height: 100px;
+}
