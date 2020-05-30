@@ -173,9 +173,26 @@
 }
 
 .card-title {
+    color: white;
     margin: 0;
 }
 
-.card-img-top {
-    height: 100px;
+.card-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    /* or 100% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.48;
+}
+
+#imagen {
+    width: 140px;
+    height: 128px;
 }
