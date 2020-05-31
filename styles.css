@@ -154,11 +154,21 @@
 
 #boton {
    color: white;
-   font-size: 30px;
-   width: 348px;
-   height: 57px;   
+   font-size: 15px;
+   width: 200px;
+   height: 40px;   
    background: #1ED760;
    border-radius: 30px;
+}
+
+#boton-init {
+    color: black;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;   
+    background: white;
+    border-radius: 30px;
+    border: solid;    
 }
 
 .body__home__letter {
@@ -197,4 +207,17 @@
 #imagen {
     width: 140px;
     height: 128px;
+}
+
+#date {
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 20px;
+}
+
+.login__letter--green {
+    color: #1ED760;
+}
+
+a:link {
+    color: #FFFFFF;
 }

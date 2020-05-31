@@ -16,7 +16,7 @@
         <div class="col-md-12">
           <div class="body__header--blanco">
             <img src="../images/LogoSoloNegroFondoTransparente.png" alt="">
-            <span id="titulo">Mateify</span>
+            <span id="titulo"><b>Mateify</b></span>
           </div>
         </div>
       </header>
@@ -33,9 +33,31 @@
             <input type="text" placeholder="Nombre de usuario">
             <br>
             <h5>FECHA DE NACIMIENTO:</h5>
-            <div class="form-group">
-                <input type="date">
+            <div class="btn-group">
+              <button id="date" class="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Día
+              </button>
+              <div class="dropdown-menu">
+                <!-- <a class="dropdown-item" href="#"></a> -->
+              </div>
             </div>
+            <div class="btn-group">
+              <button id="date" class="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Mes
+              </button>
+              <div class="dropdown-menu">
+                <!-- <a class="dropdown-item" href="#"></a> -->
+              </div>
+            </div>
+            <div class="btn-group">
+              <button id="date" class="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Año
+              </button>
+              <div class="dropdown-menu">
+                <!-- <a class="dropdown-item" href="#"></a> -->
+              </div>
+            </div>
+            <br>
             <input type="radio">
             <label for="">Masculino</label>
             <input type="radio">
@@ -43,13 +65,13 @@
             <input type="radio">
             <label for="">Otro</label>
             <br>    
-            <button type="submit">REGISTRARSE</button>
+            <button id="boton" type="button" class="btn btn-green"><b>REGISTRARSE</b></button>
           </form>
           <div class="linea">
             <hr id="linea">
           </div>
           <h5>¿Ya tienes cuenta?</h5>
-          <button>INICIA SESIÓN</button>
+          <button id="boton-init" type="button" class="btn btn-green"><b>INICIA SESIÓN</b></button>
         </div>
       </div>
       <footer class="fixed-bottom">
