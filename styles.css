@@ -6,7 +6,7 @@
         border-bottom: 1px solid rgba(101, 101, 101, 0.33); 
     }
 
-    #titulo {
+    #logo {
         position: relative;
         width: 183px;
         height: 64px;
@@ -119,7 +119,7 @@
     border-radius: 33px;
 }
 
-#titulo-blanco {
+#logo-blanco {
     position: relative;
     width: 183px;
     height: 64px;
@@ -222,7 +222,14 @@ a:link {
     color: #FFFFFF;
 }
 
-input {
+.form-control {
+    width: 527px;
+    height: 57px;
+    margin-bottom: 10px;
     border: 1px solid rgba(31, 32, 65, 0.25);
-    border-radius: 20px;
+    border-radius: 30px;
+}
+
+#titulo {
+    margin: 20px;
 }
