@@ -152,14 +152,16 @@
     height: 37px;
 }
 
-.button {
+#boton {
+   color: white;
+   font-size: 30px;
    width: 348px;
    height: 57px;   
    background: #1ED760;
-   border-radius: 42px;
+   border-radius: 30px;
 }
 
-.leter__home {
+.body__home__letter {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
