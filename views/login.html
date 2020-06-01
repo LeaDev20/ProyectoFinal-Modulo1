@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="../styles.css">
     <title>Login</title>
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <header class="row">
-        <div class="col-md-12">
-          <div class="body__header--blanco">
-            <img src="../images/LogoSoloNegroFondoTransparente.png" alt="">
-            <span id="logo"><b>Mateify</b></span>
-          </div>
+  <body class="text-center">
+    <header class="row">
+      <div class="col-md-12">
+        <div class="body__header--blanco">
+          <img src="../images/LogoSoloNegroFondoTransparente.png" alt="">
+          <span id="logo"><b>Mateify</b></span>
         </div>
-      </header>
+      </div>
+    </header>
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 text-center">
           <h5 id="titulo">Para continuar, inicia sesión</h5>
@@ -28,9 +28,15 @@
               <div class="col-md-5">
                 <input class="form-control" type="text" placeholder="Correo electrónico o nombre de usuario">
                 <input class="form-control" type="text" placeholder="Contraseña">
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-4">
                 <input type="checkbox">
                 <label for="">Recuérdame</label>
-                <button id="boton" type="button" class="btn btn-green"><b>INICIAR SESIÓN</b></button>
+              </div>
+              <div class="col-md-3">
+                <a id="boton" style="margin-left: 20px;"  href="home.html" class="btn btn-info" role="button"><b>INICIAR SESIÓN</b></a>
               </div>
             </div>
           </form>
@@ -42,21 +48,20 @@
             <hr id="linea">
           </div>
           <h5><b>¿No tienes cuenta?</b></h5>
-          <button id="boton-init" type="button" class="btn btn-green"><b>REGISTRATE</b></button>
+          <a id="boton-init" href="register.html" class="btn btn-info" role="button"><b>REGISTRARSE</b></a>
         </div>
       </div>
-      <footer class="row">
-        <div class="col-md-12">
-          <div class="body__footer--blanco">
-
-          </div>
-        </div>
-      </footer>
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </div>
+    <footer class="row">
+      <div class="col-md-12">
+        <div class="body__footer--blanco">
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>

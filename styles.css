@@ -11,8 +11,8 @@
         width: 183px;
         height: 64px;
         top: 19px;
-        font-family: Righteous;
-        font-style: normal;
+        font-family: "Righteous";
+        font-style: regular;
         font-weight: normal;
         font-size: 32px;
         line-height: 40px;
@@ -232,4 +232,8 @@ a:link {
 
 #titulo {
     margin: 20px;
+}
+
+.button-checkbox {
+    
 }
