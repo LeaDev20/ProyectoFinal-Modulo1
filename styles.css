@@ -113,10 +113,15 @@
 }
 
 #input {
-    background: #FFFFFF;
+    background-image: url(./icons/search-24px.svg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 15px;
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box;
     border-radius: 33px;
+    padding-left: 50px;
 }
 
 #logo-blanco {
@@ -168,7 +173,8 @@
     height: 40px;   
     background: white;
     border-radius: 30px;
-    border: solid;    
+    border: solid;
+    margin: 5px 0px 40px 0px;    
 }
 
 .body__home__letter {
@@ -212,6 +218,12 @@
 #date {
     border: 1px solid rgba(31, 32, 65, 0.25);
     border-radius: 20px;
+    color: rgba(31, 32, 65, 0.25);
+    font-weight: bold;
+}
+
+#date::placeholder {
+    color: rgba(31, 32, 65, 0.25);
 }
 
 .login__letter--green {
@@ -230,10 +242,41 @@ a:link {
     border-radius: 30px;
 }
 
-#titulo {
-    margin: 20px;
+.form-control::placeholder {
+    color: rgba(31, 32, 65, 0.25);
+    font-weight: bold;
 }
 
-.button-checkbox {
+#titulo {
+    margin: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#body__form {
+    text-align: start;
+    color: rgba(31, 32, 65, 0.25);
+}
+
+#login__body__boton--iniciar {
+    text-align: end;
+}
+
+#login__body__label--recuerdame {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#new-playlist__body--p {
+    margin: 0;
+}
+
+.new-playlist__body__table--add {
     
 }
