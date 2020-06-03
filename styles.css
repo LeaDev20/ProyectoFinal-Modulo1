@@ -1,282 +1,294 @@
 /* GENERAL: Login & Register*/
-    /* Header */
+    /* HEADER */
+        .body__header--blanco {
+            height: 83px;
+            border-bottom: 1px solid rgba(101, 101, 101, 0.33); 
+        }
 
-    .body__header--blanco {
+        #logo {
+            position: relative;
+            width: 183px;
+            height: 64px;
+            top: 19px;
+            font-family: "Righteous";
+            font-style: regular;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 40px;
+            color: #000000;
+        }
+
+        img {
+            position: relative;
+            width: 37px;
+            height: 33px;
+            top: 10px;
+        }
+    /* /HEADER */
+    /* Body */
+        #titulo {
+            margin: 20px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        /* LOGIN */
+        .body__login {
+            position: relative;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #linea {
+            width: 527px;
+            margin: 20px;
+        }
+
+        .linea {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login__letter--green {
+            color: #1ED760;
+        }
+
+        /* REGISTER */
+        #body__form {
+            text-align: start;
+            color: rgba(31, 32, 65, 0.25);
+        }
+        
+        #login__body__boton--iniciar {
+            text-align: end;
+        }
+        
+        #login__body__label--recuerdame {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    /* /BODY */
+    /* Footer */
+        .body__footer--blanco {
+            height: 88px;
+        }
+
+        .body__footer--blanco2 {
+            height: 88px;
+            border-top: 1px solid rgba(101, 101, 101, 0.33);
+        }
+
+        #footer_p {
+            position: relative;
+            float: left;
+            top: 19px;
+        }
+        
+        #footer_span {
+            position: relative;
+            float: right;
+            top: 19px;
+        }
+
+        .spotify {
+            float: right;
+            width: 111px;
+            height: 37px;
+        }
+    /* /FOOTER */
+/* /GENERAL */
+
+/* GENERAL: Home,Search-playlist,New-playlist,Edit */
+
+    /* HEADER */
+    .body__header--negro {
+        width: 100%;
+        background-color: black;
         height: 83px;
         border-bottom: 1px solid rgba(101, 101, 101, 0.33); 
     }
 
-    #logo {
+    .header__nav--logo {
+        float: left;
+    }
+
+    #logo-blanco {
         position: relative;
         width: 183px;
         height: 64px;
         top: 19px;
-        font-family: "Righteous";
-        font-style: regular;
+        font-family: Righteous;
+        font-style: normal;
         font-weight: normal;
         font-size: 32px;
         line-height: 40px;
-        color: #000000;
+        color: #FFFFFF;
     }
-
-    img {
+    
+    .header__nav--a {
+        float: right;
         position: relative;
-        width: 37px;
-        height: 33px;
-        top: 10px;
+        margin: 25px 25px 0px 0px;
+        font-family: Montserrat;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
     }
 
-    /* Body */
-
-    .body__login {
-        position: relative;
-        justify-content: center;
-        align-items: center;
+    /* BODY_BACKGROUND */
+    .body__home {
+        background-image: url(./images/Latin_Festival.jpg);
+    }
+    
+    .body__page {
+        background-color: black;
     }
 
-    #linea {
+    /* BODY_COMPONENTS */
+    .body__home__letter {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 61px;
+        color: #FFFFFF;
+    }
+
+    #input {
+        background-image: url(./icons/search-24px.svg);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position-x: 15px;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        border-radius: 33px;
+        padding-left: 50px;
+    }
+
+    #boton {
+        color: white;
+        font-size: 15px;
+        width: 200px;
+        height: 40px;   
+        background: #1ED760;
+        border-radius: 30px;
+    }
+     
+    #boton-init {
+        color: black;
+        font-size: 15px;
+        width: 200px;
+        height: 40px;   
+        background: white;
+        border-radius: 30px;
+        border: solid;
+        margin: 5px 0px 40px 0px;    
+    }
+
+    a:link {
+        color: #FFFFFF;
+    }
+    /* SEARCH-PLAYLIST */
+    .card {
+        background-color: black;
+    }
+    
+    .card-title {
+        color: white;
+        margin: 0;
+    }
+    
+    .card-text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 14px;
+        /* or 100% */
+    
+    
+        color: #FFFFFF;
+    
+        mix-blend-mode: normal;
+        opacity: 0.48;
+    }
+    
+    #imagen {
+        width: 140px;
+        height: 128px;
+    }
+
+    /* REGISTER */
+    #date {
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        border-radius: 20px;
+        color: rgba(31, 32, 65, 0.25);
+        font-weight: bold;
+    }
+    
+    #date::placeholder {
+        color: rgba(31, 32, 65, 0.25);
+    }
+
+    .form-control {
         width: 527px;
-        margin: 20px;
+        height: 57px;
+        margin-bottom: 10px;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        border-radius: 30px;
+    }
+    
+    .form-control::placeholder {
+        color: rgba(31, 32, 65, 0.25);
+        font-weight: bold;
     }
 
-    .linea {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    /* NEW-PLAYLIST */
+
+    #new-playlist__body--p {
+        margin: 0;
     }
 
-    /* Footer */
-
-    .body__footer--blanco {
-        height: 88px;
+    #body__table__expand--more {
+        background-color: green;
     }
 
-    .body__footer--blanco2 {
+    .new-playlist__body__table--add {
+        background-image: green;
+    }
+
+    /* FOOTER */
+    .body__footer--negro {
+        background-color: black;
         height: 88px;
         border-top: 1px solid rgba(101, 101, 101, 0.33);
     }
 
-    #footer_p {
+    #footer__p--blanco {
+        color: #FFFFFF;
         position: relative;
         float: left;
         top: 19px;
     }
     
-    #footer_span {
+    #footer__span--blanco {
+        color: #FFFFFF;
         position: relative;
         float: right;
         top: 19px;
     }
-
-    .spotify {
+    
+    .spotify__green {
         float: right;
         width: 111px;
         height: 37px;
     }
+
 /* /GENERAL */
-
-/* GENERAL: Home,Search,Playlist,Edit */
-
-.body__header--negro {
-    width: 100%;
-    background-color: black;
-    height: 83px;
-    border-bottom: 1px solid rgba(101, 101, 101, 0.33); 
-}
-
-.header__nav--logo {
-    float: left;
-}
-
-.header__nav--a {
-    float: right;
-    position: relative;
-    margin: 25px 25px 0px 0px;
-    font-family: Montserrat;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
-
-.body__home {
-    background-image: url(./images/Latin_Festival.jpg);
-}
-
-.body__page {
-    background-color: black;
-}
-
-.body__footer--negro {
-    background-color: black;
-    height: 88px;
-    border-top: 1px solid rgba(101, 101, 101, 0.33);
-}
-
-#input {
-    background-image: url(./icons/search-24px.svg);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-position-x: 15px;
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 33px;
-    padding-left: 50px;
-}
-
-#logo-blanco {
-    position: relative;
-    width: 183px;
-    height: 64px;
-    top: 19px;
-    font-family: Righteous;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 40px;
-    color: #FFFFFF;
-}
-
-#footer__p--blanco {
-    color: #FFFFFF;
-    position: relative;
-    float: left;
-    top: 19px;
-}
-
-#footer__span--blanco {
-    color: #FFFFFF;
-    position: relative;
-    float: right;
-    top: 19px;
-}
-
-.spotify__green {
-    float: right;
-    width: 111px;
-    height: 37px;
-}
-
-#boton {
-   color: white;
-   font-size: 15px;
-   width: 200px;
-   height: 40px;   
-   background: #1ED760;
-   border-radius: 30px;
-}
-
-#boton-init {
-    color: black;
-    font-size: 15px;
-    width: 200px;
-    height: 40px;   
-    background: white;
-    border-radius: 30px;
-    border: solid;
-    margin: 5px 0px 40px 0px;    
-}
-
-.body__home__letter {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 61px;
-    color: #FFFFFF;
-}
-
-.card {
-    background-color: black;
-}
-
-.card-title {
-    color: white;
-    margin: 0;
-}
-
-.card-text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 14px;
-    /* or 100% */
-
-
-    color: #FFFFFF;
-
-    mix-blend-mode: normal;
-    opacity: 0.48;
-}
-
-#imagen {
-    width: 140px;
-    height: 128px;
-}
-
-#date {
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    border-radius: 20px;
-    color: rgba(31, 32, 65, 0.25);
-    font-weight: bold;
-}
-
-#date::placeholder {
-    color: rgba(31, 32, 65, 0.25);
-}
-
-.login__letter--green {
-    color: #1ED760;
-}
-
-a:link {
-    color: #FFFFFF;
-}
-
-.form-control {
-    width: 527px;
-    height: 57px;
-    margin-bottom: 10px;
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    border-radius: 30px;
-}
-
-.form-control::placeholder {
-    color: rgba(31, 32, 65, 0.25);
-    font-weight: bold;
-}
-
-#titulo {
-    margin: 20px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-}
-
-#body__form {
-    text-align: start;
-    color: rgba(31, 32, 65, 0.25);
-}
-
-#login__body__boton--iniciar {
-    text-align: end;
-}
-
-#login__body__label--recuerdame {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-}
-
-#new-playlist__body--p {
-    margin: 0;
-}
-
-.new-playlist__body__table--add {
-    
-}
