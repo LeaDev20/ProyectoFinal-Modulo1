@@ -142,8 +142,16 @@
     }
 
     /* BODY_BACKGROUND */
-    .body__home {
-        background-image: url(./images/Latin_Festival.jpg);
+    
+    #body__home--imagen{
+        filter: brightness(0.4);
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        z-index: -1;
+        /* Preserve aspet ratio */
+        min-width: 100%;
+        min-height: 100%;
     }
     
     .body__page {
@@ -252,6 +260,9 @@
 
     /* NEW-PLAYLIST */
 
+    .views__background-black{
+        background-color: #000000;
+    }
     #new-playlist__body--p {
         margin: 0;
     }
@@ -266,9 +277,20 @@
 
     /* FOOTER */
     .body__footer--negro {
+        position: fixed;
         background-color: black;
-        height: 88px;
+        height: 70px;
         border-top: 1px solid rgba(101, 101, 101, 0.33);
+        bottom: 0;
+        width: 100%;
+    }
+
+    .body__footer__negro--nofixed {
+        background-color: black;
+        height: 70px;
+        border-top: 1px solid rgba(101, 101, 101, 0.33);
+        bottom: 0;
+        width: 100%;
     }
 
     #footer__p--blanco {
